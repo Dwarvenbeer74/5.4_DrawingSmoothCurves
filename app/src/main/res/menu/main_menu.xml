@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clear"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="@string/clear_txt"
+        android:visible="true"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/pick_color"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="@string/pick_txt"
+        android:visible="true"
+        app:showAsAction="withText"/>
+
+</menu>
